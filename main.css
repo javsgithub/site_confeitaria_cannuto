@@ -1,0 +1,95 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header nav h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400px;
+    font-style: italic;
+    color: #fff;
+}
+
+.destaque{
+    font-size: 70px;
+    color: coral;
+}
+
+.navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: #fff;
+    color: coral;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.bolos{
+    background-color: #c7fde4;
+}
+
+.bolos h2{  
+    font-family: "Pacifico", cursive;
+    color: coral;
+    font-style: italic;
+}
+
+.card h2{
+    color: #fff;
+}
+
+.card-body h4,
+.card-body h5{
+    color: #198754;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-body{
+    background-color: rgb(244, 223, 185);
+}
+
+footer{
+    padding: 16px;
+    background-color: #198754;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        flex-direction: column;
+    }
+    
+    .destaque{
+        display: block;
+    }
+
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .c1, .c2{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        max-width: 90%;
+    }
+    .c1, .c2{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
